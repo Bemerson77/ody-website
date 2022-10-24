@@ -1,6 +1,7 @@
 {
   "name": "ody-website",
   "version": "0.1.0",
+  "homepage": "https://Bemerson77.github.io/ody-website",
   "private": true,
   "scripts": {
     "dev": "next dev",
