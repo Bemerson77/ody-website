@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
-import HeaderLogo from '../public/ody-full-logo.png'
+// import HeaderLogo from '../public/ody-full-logo.png'
 import BannerLogo from '../public/ody-logo-words-01.png'
 
 export default function Home() {
@@ -13,16 +14,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <div className={styles.headerOuter}>
-        <Image
-          priority
-          src={HeaderLogo}
-          className={styles.headerLogo}
-          height={100}
-          width={100}
-          alt=""
-        />
-      </div> */}
+      <div className={styles.headerOuter}>
+        <Link className={styles.phoneNumberLink} href="tel:864-625-3578">
+          <a>
+            <h4>864-625-3578</h4>
+          </a>          
+        </Link>
+      </div>
 
       <div className={styles.bannerOuter}>
       <Image

@@ -104,7 +104,17 @@
 }
 
 .headerOuter {
-  padding: 20px
+  padding: 10px;
+  text-align: right;
+
+  .phoneNumberLink {
+    display: inline;
+    background-color: chartreuse;
+
+    h4 {
+      display: inline;
+    }
+  }
 }
 
 .headerLogo {
