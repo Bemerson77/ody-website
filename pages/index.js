@@ -50,7 +50,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <span className={styles.logo}>
-            <p>&copy; 2022 Odyssey Barber Co.</p>
+            <p>&copy; 2023 Odyssey Barber Co.</p>
           </span>
         </a>
       </footer>
