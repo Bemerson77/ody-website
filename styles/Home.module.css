@@ -103,47 +103,15 @@
   line-height: 1.5;
 }
 
-.headerOuter {
-  padding: 20px
-}
-
-.headerLogo {
-  border-radius: 60%;
-}
-
-.bannerOuter {
-  padding: 20px
-}
-
-.bannerLogo {
-  
-}
-
-.messageOuter {
-  text-align: center;
-}
-
-.iframeContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.bookingIframe {
-  height: 500px;
-  width: 50%;
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-
-  .bookingIframe {
-    width: 100%;
   }
 }
 
