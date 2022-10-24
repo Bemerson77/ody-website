@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  basePath: '/ody-website',
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    loader: "akamai",
+    path: ""
+  }
 }
+
+module.exports = nextConfig
