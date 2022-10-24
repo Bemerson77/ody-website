@@ -128,12 +128,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .bookingIframe {
   height: 500px;
   width: 50%;
+  border: solid 1px;
 }
 
 @media (max-width: 600px) {
